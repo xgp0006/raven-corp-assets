@@ -8,16 +8,15 @@ Metallic crest. Exact **1024×256** JPEG for `ServerImageURL`.
 
 Do **not** use GitHub raw PNG. Game fetchers often fail on `raw.githubusercontent.com`.
 
-### Working URL (paste this)
+### Working URL (paste this into ServerImageURL)
+
+The dedicated server only fetches hosts on `ImageURLWhitelist`.
+GitHub, jsDelivr, and Catbox are **not** on that list (`url_not_allowed`).
+
+Use Imgur:
 
 ```
-https://files.catbox.moe/531api.jpg
-```
-
-After this repo is updated, prefer jsDelivr:
-
-```
-https://cdn.jsdelivr.net/gh/xgp0006/raven-corp-assets@main/raven-corp-wardogs-banner-1024x256.jpg
+https://i.imgur.com/ShxltAs.jpeg
 ```
 
 - JPEG: `raven-corp-wardogs-banner-1024x256.jpg` (use this)
